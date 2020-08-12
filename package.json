@@ -1,0 +1,16 @@
+{
+  "name": "performance-metrics",
+  "version": "1.0.0",
+  "description": "Shows how to evaluate some performance metrics",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test:ci:firefox": "cypress run --browser firefox"
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^4.12.1"
+  }
+}
